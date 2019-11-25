@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  public contact={
+    nom:"Diop" ,
+    prenom:"Abdou Aziz",
+    tel:"773097787",
+    logo:"assets/image/tdsi.png" ,
+    location:"assets/image/loc.PNG"
+  } ;
+
   constructor() {}
 
 }
